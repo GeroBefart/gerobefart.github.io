@@ -1,26 +1,190 @@
-/*CLASE COLOR DE LOS HORARIOS*/
+
+ /*CLASE COLOR DE LOS HORARIOS*/
 .miclase0{
-    background-color: rgb(48, 236, 236);font-size: 0,50em;
+    background-color: rgb(48, 236, 236);
+    font-size: 0,50em;
+    flex-direction: row-reverse;
 }
 .miclase1{
-background-color: rgb(47, 172, 255) ;font-size: 0,30em;
-
+background-color: rgb(47, 172, 255) ;
+font-size: 0,30em;
+ color: grey;
+flex-direction: row-reverse;
 }
 .miclase2{
-    background-color: rgb(4, 82, 146); font-size: 0,30em;
+    background-color: rgb(0, 7, 14);
+     font-size: 0,30em; 
+     color: white; 
+     flex-direction: row-reverse;
 }
 .miclase3{
-    background-color: rgb(52, 6, 104);font-size: 0,30em;
+    background-color: rgb(75, 0, 160);
+    font-size: 0,30em;
+     color: black;
 }
-/*CLASE FONDO DE HEADER*/
-.fondodeheader{
-    background-color: cornsilk;
+/*CAJAS1 DEBAJO DEL ENCABEZADO*/
+.cajas1 {
+    border: #fff;
+    padding: auto; 
+   color: #fff;
+}
+/*CLASE HEADER*/
+.header{
+    background-color: rgb(0, 52, 87);
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
 }
 /*FONDO DE FOOTHER INDEX*/
 .fondodefooter{
-    background-color: darkseagreen;
+    background-color:rgb(0, 52, 87);
+    text-align: center;
+    height: auto;
+    width: auto;
+
 } 
 /*FORMULARIO*/
 .formulario{
- margin: 0%;  width: 200px; margin-left: 10px ; margin-top: 10px; margin-bottom: 10px; margin-right: 10px; background-color: grey;
+    border-style: groove;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 200px;
+    border-color: rgb(0, 52, 87);;
+    text-align: center;
+    flex-direction: column;
+}
+/*TEXTO DE CONTACTO*/
+.contactotext{
+    text-align: center;
+    
+}
+/*TEXTOS DEL INDEX*/
+.indextextos{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 52, 87);
+    background-color:rgb(243, 219, 125);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-top: 5px;
+    
+    
+}
+/*IMAGEN DEL INDEX*/
+.imagenindex{
+    padding-left: 425px;
+    padding-right: 425px;
+    
+}
+/*practicar el bloque de css*/
+.bloquecss{
+    width: 400px; height: 150px;
+    background-color: darkseagreen;
+    border: 4px dotted white;
+    padding: 50px;
+    margin: 40px;
+    text-align: center;
+    display: inline-table;
+}
+/*letra del bloque css*/
+.bloquecssletra{
+    text-align: center;
+    vertical-align: middle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-transform: uppercase;color: rgb(246, 246, 252);
+    
+}
+
+
+.especial{background-color: aqua;
+    padding: 10px;
+    color: #fff;
+    
+}
+
+
+
+/*NAV DIRECCION*/
+.flex{ 
+ flex-direction: column;
+}
+ 
+body{ 
+    background-color: rgb(243, 219, 125);
+}
+.header .logo{
+    margin-right: auto;
+}
+.header .logo img{
+    height: 70px;
+    width: auto;
+    
+}
+.header .nav-links{
+    list-style: none;
+
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    margin: auto;
+    
+    
+}
+
+
+.header .nav-links a{
+    font-size: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    
+}
+.header .nav-links a:hover{
+color: orange;
+}
+/*foto de campera que esta en el index*/
+.indexcampera{
+   width: 270px;height: 270px;border-radius: 5px; padding: 1em;
+   float: left;
+   margin: 10px;
+}
+/*todo lo que es el footer*/
+.fondodefooter .footer-links{
+    list-style: none;
+}
+.fondodefooter .footer-links li{
+    display: inline-block;
+    padding: 0 20px;
+    margin: auto;
+}
+.fondodefooter .footer-links a{
+    font-size: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+.fondodefooter .footer-links a:hover{
+    color: orange
+}
+/* primer p del index*/
+.primerp{
+    font-size: 15px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 52, 87);
+    margin-top: 50px;
+    margin-right: 50px;
+    border-top: 5px;
+    padding: 10px;
 }
